@@ -1,0 +1,95 @@
+
+#teams_table {
+
+    -fx-min-width: 1300;
+    -fx-min-Height:748;
+    -fx-font-size: 16;
+    -fx-font-weight: bold;
+}
+
+
+#teams_table .table-column {
+    
+    -fx-alignment: CENTER;
+}
+
+.table-view .table-cell {
+    -fx-padding: 4px;               /* Padding inside each cell */
+    -fx-border-width: 0 0 1px 0;
+}
+
+
+#teams_table:focused{
+    -fx-background-color: black;
+}
+
+#teams_table .column-header {
+    -fx-background-color: black;
+    -fx-border-color: #E9D8A6;  
+}
+
+#teams_table .column-header-background .label{
+    -fx-text-fill: white;
+}
+
+#teams_table .table-row-cell{
+    -fx-background-color: #94D2BD;
+    -fx-border-color: #E9D8A6;   
+    -fx-text-fill: red;
+}
+
+#teams_table .table-column{
+    -fx-border-color: #E9D8A6;   
+}
+
+
+#teams_table .table-row-cell:selected {
+    -fx-background-color:#9B2226;
+}
+
+
+
+
+#ages_table {
+
+    -fx-min-width: 572;
+    -fx-min-Height:748;
+    -fx-font-size: 16;
+    -fx-font-weight: bold;
+}
+#ages_table .table-column {
+    
+    -fx-alignment: CENTER;
+}
+
+
+#ages_table:focused{
+    -fx-background-color: black;
+}
+
+#ages_table .column-header {
+    -fx-background-color: black;
+    -fx-border-color: #E9D8A6;  
+    -fx-font-size: 16;
+    -fx-font-weight: bold;
+}
+
+#ages_table .column-header-background .label{
+    -fx-text-fill: white;
+}
+
+#ages_table .table-row-cell{
+    -fx-background-color: #94D2BD;
+    -fx-border-color: #E9D8A6;   
+    -fx-text-fill: red;
+}
+
+#ages_table .table-column{
+    -fx-border-color: #E9D8A6;   
+}
+
+
+#ages_table .table-row-cell:selected {
+    -fx-background-color:#9B2226;
+}
+

@@ -1,0 +1,510 @@
+.root {
+    /*    -fx-background-color : #38F3C6;*/
+    -fx-background-color: linear-gradient(to bottom right, #4c4c4c, #ffcc00);
+    -fx-background-image: url('background7.png'); /* Use absolute path for local files */
+        -fx-background-size: cover;
+        -fx-background-position: center;
+        -fx-background-repeat: no-repeat;
+
+}
+
+#mainroot{
+-fx-background-image: url('background7.png'); /* Use absolute path for local files3 */
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+#stats_root{
+    -fx-background-image: url('background8.png'); /* Use absolute path for local files3 */
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+#players_root{
+-fx-background-image: url('background7.png'); /* Use absolute path for local files 5*/
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+#match_root{
+    -fx-background-image: url('background7.png'); /* Use absolute path for local files */
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+#team_root{
+    -fx-background-image: url('background7.png'); /* Use absolute path for local files */
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+#titlelayout{
+    -fx-spacing: 20px; /* Space between children */
+    -fx-alignment: CENTER_LEFT ;
+    -fx-padding: 0px 0px 0 20px;
+}
+
+#orderlayout{
+    -fx-spacing: 20px; /* Space between children */
+    -fx-alignment: CENTER ;
+    -fx-text-fill: white;
+}
+
+#orderlayout .check-box {
+    -fx-text-fill: white;
+}
+
+#contanier{
+ -fx-alignment: CENTER ;
+ -fx-padding: 20px;
+}
+
+#hield_box{
+-fx-font-size: 18;
+-fx-text-fill: white;
+-fx-font-weight: bold;
+}
+
+#toplayout {
+    -fx-font-size: 24;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-spacing: 15px; /* Space between children */
+    -fx-padding: 30px; /* Padding inside the HBox */
+    -fx-alignment: CENTER_LEFT ;
+}
+
+#main_layout{
+    -fx-alignment: CENTER ;
+}
+
+#team_header_layout {
+    -fx-spacing: 20px; /* Space between children */
+    -fx-padding: 20px; /* Padding inside the HBox */
+    -fx-background-color: transparent; /* Background color */
+    -fx-alignment: CENTER ;
+    -fx-max-width: 1700;
+
+}
+
+.tab-pane {
+    -fx-background-color: transparent;
+}
+
+/* Style the tabs */
+.tab-pane .tab {
+
+    -fx-background-color: #023047;
+    -fx-padding: 10px;
+    -fx-border-width: 0px;
+    -f-spacing:20px;
+}
+
+
+.tab-pane .tab-label {
+    -fx-text-fill: white; /* Set the text color */
+    -fx-font-weight: bold;
+    -fx-border-width: 0px;
+}
+
+/* Style the tab when selected */
+.tab-pane .tab:selected {
+    -fx-background-color:#3366cc;
+}
+
+.tab-pane .tab-header {
+     -fx-border-color: white; /* Border color */
+        -fx-border-width: 2px; /* Border width */
+        -fx-border-radius: 5px;
+}
+
+.tab-pane .tab-header-background {
+    -fx-background-color: #023047; /* Set your desired background color */
+    -fx-border-color: white; /* Border color */
+            -fx-border-width: 2px; /* Border width */
+            -fx-border-radius: 5px;
+}
+
+
+#match_header_layout {
+    -fx-spacing: 20px; /* Space between children */
+    -fx-padding: 20px; /* Padding inside the HBox */
+    -fx-background-color: #023047; /* Background color */
+    -fx-border-color: white; /* Border color */
+    -fx-border-width: 2px; /* Border width */
+    -fx-border-radius: 5px; /* Rounded corners for the border */
+    -fx-background-radius: 5px; /* Rounded corners for the background */
+    -fx-alignment: CENTER ;
+    -fx-max-width: 1100;
+    -fx-opacity:0.7;
+}
+
+#match_header_layout .label{
+    -fx-font-size: 24;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-spacing: 20px; /* Space between children */
+    -fx-alignment: CENTER ;
+}
+#v_layout .label{
+    -fx-font-size: 12;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-spacing: 15px; /* Space between children */
+    -fx-alignment: CENTER ;
+}
+
+#gridlayout .HBox {
+-fx-font-size: 18;
+    -fx-font-weight: bold;
+    -fx-spacing: 15px; /* Space between children */
+    -fx-padding: 10px; /* Padding inside the HBox */
+    -fx-background-color: lightblue; /* Background color */
+    -fx-border-color: blue; /* Border color */
+    -fx-border-width: 2px; /* Border width */
+    -fx-border-radius: 5px; /* Rounded corners for the border */
+    -fx-background-radius: 5px; /* Rounded corners for the background */
+}
+
+#h_layout {
+    -fx-spacing: 20px; /* Space between children */
+    -fx-background-color: transparent; /* Background color */
+    -fx-alignment: CENTER ;
+}
+
+#h_layout .label{
+    -fx-font-size: 24;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-spacing: 15px; /* Space between children */
+    -fx-alignment: CENTER ;
+}
+
+#h_layout .button{
+    -fx-padding: 0px;
+    -fx-background-color: transparent;
+}
+
+#layout {
+    -fx-font-size: 16;
+    -fx-font-weight: bold;
+    -fx-spacing: 15px; /* Space between children */
+    -fx-padding: 10px; /* Padding inside the HBox */
+    -fx-background-color: #04a67f;
+    -fx-border-color: #25b754; /* Border color */
+    -fx-border-width: 2px; /* Border width */
+    -fx-border-radius: 5px; /* Rounded corners for the border */
+    -fx-background-radius: 5px; /* Rounded corners for the background */
+}
+#layout .label{
+-fx-text-fill: white;
+}
+
+#layout .choice-box .label {
+            -fx-text-fill: black;
+  }
+
+#vboxlayout {
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+    -fx-spacing: 15px; /* Space between children */
+    -fx-padding: 10px; /* Padding inside the HBox */
+    -fx-background-color: lightblue; /* Background color */
+    -fx-border-color: blue; /* Border color */
+    -fx-border-width: 2px; /* Border width */
+    -fx-border-radius: 5px; /* Rounded corners for the border */
+    -fx-background-radius: 5px; /* Rounded corners for the background */
+    -fx-alignment: CENTER;
+}
+
+#hboxlayout{
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+    -fx-spacing: 10px; /* Space between children */
+    -fx-alignment: CENTER_LEFT;
+}
+#hboxlayout .label {
+    -fx-pref-width: 160px; /* Default preferred width */
+    -fx-padding: 5px; /* Example padding */
+}
+#hboxlayout .text-field {
+    -fx-pref-width: 400px; /* Default preferred width */
+    -fx-padding: 5px; /* Example padding */
+}
+
+
+#hboxlayout2{
+    -fx-spacing: 10px; /* Space between children */
+    -fx-padding: 5px; /* Padding inside the HBox */
+    -fx-alignment: CENTER_RIGHT;
+
+}
+
+#hboxlayout2 .button{
+    -fx-font-size: 24;
+    -fx-font-weight: bold;
+
+}
+
+#hboxlayout3{
+    -fx-padding: 10px; /* Padding inside the HBox */
+    -fx-background-color: lightblue; /* Background color */
+    -fx-border-color: blue; /* Border color */
+    -fx-border-width: 2px; /* Border width */
+    -fx-border-radius: 5px; /* Rounded corners for the border */
+    -fx-background-radius: 5px; /* Rounded corners for the background */
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+    -fx-spacing: 10px; /* Space between children */
+    -fx-alignment: CENTER_LEFT;
+}
+#hboxlayout3 .label {
+    -fx-pref-width: 200px; /* Default preferred width */
+    -fx-padding: 5px; /* Example padding */
+}
+#hboxlayout3 .text-field {
+    -fx-pref-width: 200px; /* Default preferred width */
+    -fx-padding: 5px; /* Example padding */
+}
+
+#hboxlayout4{
+    -fx-spacing: 10px; /* Space between children */
+    -fx-padding: 5px; /* Padding inside the HBox */
+    -fx-alignment: CENTER;
+
+}
+
+#hboxlayout4 .button{
+    -fx-font-size: 24;
+    -fx-font-weight: bold;
+        -fx-text-fill: white; /* Text color for the buttons */
+        -fx-background-color: darkblue; /* Background color for the buttons */
+        -fx-padding: 5px 10px; /* Padding inside the buttons */
+        -fx-border-radius: 3px; /* Rounded corners for the buttons */
+        -fx-background-radius: 3px;
+
+}
+
+#errlayout{
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+    -fx-spacing: 15px; /* Space between children */
+    -fx-padding: 10px; /* Padding inside the HBox */
+    -fx-background-color: lightblue; /* Background color */
+    -fx-border-color: blue; /* Border color */
+    -fx-border-width: 2px; /* Border width */
+    -fx-border-radius: 5px; /* Rounded corners for the border */
+    -fx-background-radius: 5px;
+    -fx-text-fill: red;
+}
+#errlayout .label{
+
+    -fx-text-fill: red;
+}
+
+/* Style for the buttons inside the HBox */
+#layout .button {
+    -fx-font-size: 14px; /* Font size for the buttons */
+    -fx-text-fill: white; /* Text color for the buttons */
+    -fx-background-color: darkblue; /* Background color for the buttons */
+    -fx-padding: 5px 10px; /* Padding inside the buttons */
+    -fx-border-radius: 3px; /* Rounded corners for the buttons */
+    -fx-background-radius: 3px; /* Background radius for the buttons */
+}
+
+#teamlayout {
+    -fx-font-size: 24;
+    -fx-background-color: transparent;
+    -fx-font-weight: bold;
+    -fx-spacing: 20px; /* Space between children */
+    -fx-padding: 20px; /* Padding inside the HBox */
+    -fx-alignment: CENTER_LEFT ;
+
+
+
+}
+
+/* Style for the buttons inside the HBox */
+#teamlayout .button {
+    -fx-background-color: transparent; /* Background color for the buttons */
+    -fx-padding: 0px; /* Padding inside the buttons */
+}
+
+#layout2 {
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+    -fx-spacing: 20px; /* Space between children */
+    -fx-padding: 20px; /* Padding inside the HBox */
+}
+
+#menu_bar{
+
+    /*    -fx-background-color : #0081a7;*/
+    -fx-font-size: 18;
+    -fx-background-color: transparent;
+    -fx-alignment: CENTER ;
+    -fx-padding: 40px 150px 0 0px;
+
+}
+#menu_bar .label{
+
+-fx-text-fill: white;
+-fx-font-weight: bold;
+
+}
+#menu_bar .menu-item .label{
+-fx-text-fill: #004356;
+}
+#standing_label{
+    -fx-text-fill: white;
+    -fx-font-size: 26;
+    -fx-font-weight: bold;
+}
+
+
+
+#standing_layout{
+
+    -fx-font-size: 16;
+    -fx-font-weight: bold;
+    -fx-padding: 60px 20px 0 20px;
+
+}
+
+#ages_layout{
+
+-fx-font-size: 16;
+    -fx-font-weight: bold;
+    -fx-padding: 40px;
+}
+
+
+
+#matches_layout{
+
+    -fx-min-width: 600;
+    -fx-min-Height:690;
+    -fx-padding: 0px 20px 0 0px;
+}
+
+#details_layout{
+
+    -fx-spacing: 20px; /* Space between children */
+}
+
+#details_layout .button {
+
+    -fx-background-color: transparent; /* Background color for the buttons */
+    -fx-padding: 0px; /* Padding inside the buttons */
+
+}
+#search_layout{
+
+    -fx-spacing: 20px; /* Space between children */
+    -fx-alignment: CENTER_LEFT;
+}
+#list{
+
+    -fx-min-width: 500;
+    -fx-min-Height:690;
+    -fx-padding: 20px;
+    -fx-alignment: CENTER;
+    -fx-background-color: transparent;
+
+}
+
+#list .list-cell{
+    -fx-background-color: #004356;
+    -fx-border-color: #25b754;
+    -fx-border-width: 1;
+    -fx-text-fill: white;
+}
+
+#list .list-cell:selected{
+    -fx-background-color:#3366cc;
+}
+
+#list .list-cell .label{
+
+    -fx-text-fill: white;
+}
+
+
+/* hbox.css */
+
+#header {
+    -fx-padding: 10; /* Padding around the HBox */
+    -fx-spacing: 20; /* Spacing between children */
+    -fx-alignment: center; /* Align children to the center */
+    -fx-text-fill: white;
+    -fx-max-width: 460;
+}
+
+#header .label{
+    -fx-text-fill: white;
+    -fx-font-size: 16;
+    -fx-font-weight: bold;
+    -fx-padding: 5
+
+}
+
+#header .button {
+    -fx-background-color: transparent; /* Background color of buttons */
+    -fx-padding: 0; /* Padding inside buttons */
+}
+
+#bottom {
+    -fx-padding: 10; /* Padding around the HBox */
+    -fx-spacing: 10; /* Spacing between children */
+    -fx-alignment: center; /* Align children to the center */
+    -fx-text-fill: white;
+}
+
+#bottom .label{
+    -fx-text-fill: white;
+    -fx-font-size: 16;
+    -fx-font-weight: bold;
+    -fx-padding: 5
+
+}
+
+#bottom .button {
+    -fx-background-color: #3366cc;
+    -fx-padding: 10; /* Padding inside buttons */
+    -fx-text-fill: white;
+        -fx-font-size: 16;
+        -fx-border-color: #25b754;
+}
+
+#hield_label{
+
+    -fx-padding: 4px; /* Padding inside the HBox */
+    -fx-border-color: green; /* Border color */
+    -fx-border-width: 2px; /* Border width */
+    -fx-border-radius: 5px; /* Rounded corners for the border */
+    -fx-text-fill: white;
+    -fx-background-color: green;
+    -fx-background-radius: 5px;
+}
+
+#nothield_label{
+
+    -fx-padding: 4px; /* Padding inside the HBox */
+    -fx-border-color: gray; /* Border color */
+    -fx-border-width: 2px; /* Border width */
+    -fx-border-radius: 5px; /* Rounded corners for the border */
+    -fx-text-fill: white;
+    -fx-background-color: gray;
+    -fx-background-radius: 5px;
+}
+
+
+
+
+
+
+

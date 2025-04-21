@@ -1,0 +1,44 @@
+#main_layout {
+    /*    -fx-background-color : #38F3C6;*/
+    -fx-background-color: transparent;
+    -fx-padding: 20px;
+    
+    
+
+}
+
+#header{
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+    -fx-spacing: 20px; /* Space between children */
+    -fx-padding: 20px; /* Padding inside the HBox */
+    -fx-background-color: darkblue; /* Background color */
+    -fx-border-color: white; /* Border color */
+    -fx-alignment: CENTER_LEFT ;
+}
+
+#header .label{
+    -fx-font-size: 24;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER_LEFT ;
+}
+#header .image-view{
+    -fx-alignment: CENTER_RIGHT ;
+}
+
+#layout {
+    -fx-spacing: 20px; /* Space between children */
+    -fx-padding: 20px; /* Padding inside the HBox */
+    -fx-background-color: darkblue; /* Background color */
+    -fx-border-color: white; /* Border color */
+    -fx-border-width: 2px; /* Border width */
+    -fx-border-radius: 5px; /* Rounded corners for the border */
+    -fx-background-radius: 5px; /* Rounded corners for the background */
+}
+
+#layout .label{
+    -fx-font-size: 18;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}

@@ -1,0 +1,55 @@
+#content {
+    -fx-alignment: CENTER;
+}
+
+#imgview {
+    -fx-background-color: #023047; /* Match with the background color of #match_header_layout */
+}
+
+#content .list-cell {
+    -fx-background-color: #4c4c4c; /* Match with the primary background color used */
+    -fx-border-color: #ffcc00; /* Match with the border color used in tables */
+    -fx-text-fill: #9B2226; /* Match with the text color used for selected rows */
+}
+
+
+#hlayout {
+    -fx-font-size: 12;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER;
+    -fx-spacing: 15px;
+    -fx-padding: 2px;
+}
+
+#vlayout {
+    -fx-font-size: 12;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER;
+    -fx-spacing: 15px;
+    -fx-padding: 2px;
+}
+
+#teamname {
+    -fx-pref-width: 150px;
+    -fx-alignment: CENTER;
+}
+
+#hield_label {
+    -fx-padding: 4px;
+    -fx-border-color: #25b754; /* Match with the border color of table rows */
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-text-fill: white;
+    -fx-background-color: #25b754; /* Match with the selected row background color */
+    -fx-background-radius: 5px;
+}
+
+#nothield_label {
+    -fx-padding: 4px;
+    -fx-border-color: gray; /* Match with the border color of table rows */
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-text-fill: white;
+    -fx-background-color: gray; /* Match with the background color of table rows */
+    -fx-background-radius: 5px;
+}

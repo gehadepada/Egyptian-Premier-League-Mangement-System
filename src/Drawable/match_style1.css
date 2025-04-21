@@ -1,0 +1,64 @@
+
+#content {
+
+  -fx-alignment: CENTER;
+}
+
+
+#imgview{
+
+  -fx-background-color: red;
+}
+
+#content .list-cell{
+    -fx-background-color: #94D2BD;
+    -fx-border-color: #E9D8A6;   
+    -fx-text-fill: red;
+}
+
+#hlayout {
+    -fx-font-size: 12;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER;
+    -fx-spacing: 15px; /* Space between children */
+    -fx-padding: 2px; /* Padding inside the HBox */
+
+}
+
+#vlayout {
+    -fx-font-size: 12;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER;
+    -fx-spacing: 15px; /* Space between children */
+    -fx-padding: 2px; /* Padding inside the HBox */
+
+}
+#teamname{
+-fx-pref-width: 150px;
+-fx-alignment: CENTER;
+}
+
+#hield_label{
+    
+    -fx-padding: 4px; /* Padding inside the HBox */
+    -fx-border-color: green; /* Border color */
+    -fx-border-width: 2px; /* Border width */
+    -fx-border-radius: 5px; /* Rounded corners for the border */
+    -fx-text-fill: white;
+    -fx-background-color: green;
+    -fx-background-radius: 5px; 
+}
+
+#nothield_label{
+    
+    -fx-padding: 4px; /* Padding inside the HBox */
+    -fx-border-color: gray; /* Border color */
+    -fx-border-width: 2px; /* Border width */
+    -fx-border-radius: 5px; /* Rounded corners for the border */
+    -fx-text-fill: white;
+    -fx-background-color: gray;
+    -fx-background-radius: 5px; 
+}
+
+
+

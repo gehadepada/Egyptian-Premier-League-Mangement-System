@@ -1,0 +1,95 @@
+#main_layout {
+    /* -fx-background-color: #38F3C6; */
+    -fx-background-color: transparent; /* Set background color to transparent */
+    -fx-padding: 20px;
+}
+
+#header {
+    -fx-font-weight: bold;
+    -fx-spacing: 20px; /* Space between children */
+    -fx-padding: 20px; /* Padding inside the HBox */
+    -fx-background-color: #04a67f; /* Match with the dark blue background color used */
+    -fx-border-color: white; /* Border color */
+    -fx-alignment: CENTER_LEFT;
+}
+
+#header .label {
+    -fx-font-size: 24;
+    -fx-text-fill: white; /* Text color */
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER_LEFT;
+}
+
+#header .image-view {
+    -fx-alignment: CENTER_RIGHT;
+}
+
+#layout {
+    -fx-spacing: 20px; /* Space between children */
+    -fx-padding: 20px; /* Padding inside the HBox */
+    -fx-background-color: #04a67f; /* Match with the dark blue background color used */
+    -fx-border-color: white; /* Border color */
+    -fx-border-width: 2px; /* Border width */
+    -fx-border-radius: 5px; /* Rounded corners for the border */
+    -fx-background-radius: 5px; /* Rounded corners for the background */
+}
+
+#layout .label {
+    -fx-font-size: 18;
+    -fx-text-fill: white; /* Text color */
+    -fx-font-weight: bold;
+}
+
+#main_layout2 {
+    /* -fx-background-color: #38F3C6; */
+    -fx-background-color: transparent; /* Set background color to transparent */
+    -fx-padding: 20px;
+}
+
+
+
+#layout2 {
+    -fx-spacing: 20px; /* Space between children */
+    -fx-padding: 20px; /* Padding inside the HBox */
+    -fx-background-color: #04a67f; /* Match with the dark blue background color used */
+    -fx-border-color: white; /* Border color */
+    -fx-border-width: 2px; /* Border width */
+    -fx-border-radius: 5px; /* Rounded corners for the border */
+    -fx-background-radius: 5px; /* Rounded corners for the background */
+}
+
+#layout2 .label {
+    -fx-font-size: 16;
+    -fx-text-fill: white; /* Text color */
+    -fx-font-weight: bold;
+
+
+}
+
+#main_layout3 {
+    /* -fx-background-color: #38F3C6; */
+    -fx-spacing: 20px; /* Space between children */
+        -fx-padding: 20px; /* Padding inside the HBox */
+        -fx-background-color: #004356; /* Match with the dark blue background color used */
+        -fx-border-color: white; /* Border color */
+        -fx-border-width: 2px; /* Border width */
+        -fx-border-radius: 5px; /* Rounded corners for the border */
+        -fx-background-radius: 5px; /* Rounded corners for the background */
+        -fx-opacity:0.8;
+
+}
+
+#layout3 {
+    -fx-spacing: 20px; /* Space between children */
+    -fx-padding: 20px; /* Padding inside the HBox */
+    -fx-background-color: transparent; /* Match with the dark blue background color used */
+    -fx-alignment: CENTER_LEFT;
+
+
+}
+
+#layout3 .label {
+    -fx-font-size: 18;
+    -fx-text-fill: white; /* Text color */
+    -fx-font-weight: bold;
+}
